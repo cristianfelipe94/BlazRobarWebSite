@@ -1,5 +1,8 @@
 @media only screen and (max-width: 405px) {
 
+
+  // General styles.
+  //////////////////
   body {
     font-family: $mainFontFamily;
     color: white;
@@ -8,15 +11,33 @@
     overflow-x: hidden;
   }
 
-  .navMenu li {
-    list-style: none;
+  //Navigation menu.
+  /////////////////
+  .navTitle {
+    float: left;
   }
 
   .burgerWrapper {
-    display: inline-block;
-    &:hover > .navMenu li > a {
-      display: inline-block;
-    }
+    float: right;
+  }
+
+  .burgerBtn {
+    background-color: #202529;
+  }
+
+  .navMenuWrapper {
+    background-color: #373c3f;
+    height: 38px;
+  }
+
+  .navMenuWrapper::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+
+  .navMenu li {
+    list-style: none;
   }
 
   .navMenu a {
@@ -26,10 +47,15 @@
     display: none;
   }
 
-  .navMenu {
-    display: block;
+  .burgerWrapper {
+    display: inline-block;
+    &:hover > .navMenu li > a {
+      display: inline;
+    }
   }
 
+  // SVG styles.
+  //////////////
   .cls-1,.cls-2 {
     fill: none;
     stroke: white;
@@ -39,26 +65,73 @@
   }
 
   .icons {
-    width: 64px;
-    padding: 10px;
+    width: 20px;
+    display: inline-block;
   }
 
-  .navMenuWrapper {
-    background-color: #373c3f;
-  }
-
+  // First Block.
+  ///////////////
   .lightBlueWrapper {
     background-image: linear-gradient(90deg, #19b4c6, #078aa4);
-    height: 500px;
-    width: 500px;
+    height: 176px;
   }
 
+  .lightBlueAlign {
+    width: 60%;
+    margin: 0 auto;
+    padding: 55px 0 0;
+  }
+
+  .firstBlockFeature p {
+    float: left;
+  }
+
+  .firstBlockFeature svg {
+    float: right;
+    padding: 0;
+  }
+
+  .firstBlockFeature::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+
+  .lightBlueWrapper p {
+    margin: 0;
+    display: inline-block;
+  }
+
+  // Feature Block.
+  /////////////////
+  .middleWrapper {
+    width: 100%;
+  }
   .featureWrapper {
     background-color: #27212c;
+    width: 79%;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .featureWrapper p {
+    margin: 0 auto;
+    padding: 34px 0 34px;
+    display: inline-block;
+  }
+
+  .svgWrapperFirstColor svg {
+    margin: 0 auto;
+    padding: 34px 0 34px;
+    display: inline-block;
   }
 
   .svgWrapperFirstColor {
+    text-align: center;
     background-color: #bc3183;
+    width: 19%;
+    display: inline-block;
   }
 
   .svgWrapperSecondColor {
@@ -75,10 +148,6 @@
 
   .contentBlock {
     color: black;
-  }
-
-  .burgerBtn {
-    background-color: #202529;
   }
 
 }
