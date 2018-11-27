@@ -10,3 +10,4 @@
 npm install
 npm start
 ```
+* The EsLint's "airbnb-base" guides were used on this project.
