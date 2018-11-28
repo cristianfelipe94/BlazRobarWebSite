@@ -1,153 +1,211 @@
-@media only screen and (max-width: 405px) {
+// General styles.
+//////////////////
+body {
+  font-family: $mainFontFamily;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
+//Navigation menu.
+/////////////////
+.navTitle {
+  float: left;
+}
 
-  // General styles.
-  //////////////////
-  body {
-    font-family: $mainFontFamily;
-    color: white;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
+.navTitle p {
+  margin: 0;
+  padding: 12%;
+  width: 100%;
+  cursor: pointer;
+}
 
-  //Navigation menu.
-  /////////////////
-  .navTitle {
-    float: left;
-  }
+.burgerWrapper {
+  float: right;
+}
 
-  .burgerWrapper {
-    float: right;
-  }
+.burgerBtn {
+  background-color: #202529;
+  padding: 17%;
+  float: right;
+}
 
-  .burgerBtn {
-    background-color: #202529;
-  }
+.navMenuWrapper {
+  background-color: #373c3f;
+  height: 40px;
+}
 
-  .navMenuWrapper {
-    background-color: #373c3f;
-    height: 38px;
-  }
+.middleWrapper::after {
+  clear: both;
+  content: '';
+  display: block;
+}
 
-  .navMenuWrapper::after {
-    clear: both;
-    content: '';
-    display: block;
-  }
+.navMenu li {
+  list-style: none;
+}
 
-  .navMenu li {
-    list-style: none;
-  }
+.navMenu a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: none;
+  float: right;
+}
 
-  .navMenu a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    display: none;
-  }
-
-  .burgerWrapper {
-    display: inline-block;
-    &:hover > .navMenu li > a {
-      display: inline;
-    }
-  }
-
-  // SVG styles.
-  //////////////
-  .cls-1,.cls-2 {
-    fill: none;
-    stroke: white;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-    stroke-width: 2px;
-  }
-
-  .icons {
-    width: 20px;
+.burgerWrapper {
+  display: inline-block;
+  &:hover > .navMenu li > a {
     display: inline-block;
   }
+}
 
-  // First Block.
-  ///////////////
-  .lightBlueWrapper {
-    background-image: linear-gradient(90deg, #19b4c6, #078aa4);
-    height: 176px;
-  }
+// SVG styles.
+//////////////
+.cls-1,.cls-2 {
+  fill: none;
+  stroke: white;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 2px;
+}
 
-  .lightBlueAlign {
-    width: 60%;
-    margin: 0 auto;
-    padding: 55px 0 0;
-  }
+.icons {
+  width: 20px;
+  display: inline-block;
+}
 
-  .firstBlockFeature p {
-    float: left;
-  }
+// First Block.
+///////////////
+.lightBlueWrapper {
+  background-image: linear-gradient(90deg, #19b4c6, #078aa4);
+  height: 176px;
+}
 
-  .firstBlockFeature svg {
-    float: right;
-    padding: 0;
-  }
+.lightBlueAlign {
+  width: 60%;
+  margin-left: 10%;
+  padding: 55px 0 0;
+}
 
-  .firstBlockFeature::after {
-    clear: both;
-    content: '';
-    display: block;
-  }
+.firstBlockFeature {
+  margin-top: 5%;
+}
 
-  .lightBlueWrapper p {
-    margin: 0;
-    display: inline-block;
+.firstBlockFeature p {
+  float: left;
+  opacity: 0.8;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
   }
+}
 
-  // Feature Block.
-  /////////////////
-  .middleWrapper {
-    width: 100%;
-  }
-  .featureWrapper {
-    background-color: #27212c;
-    width: 79%;
-    display: inline-block;
-    font-size: 12px;
-    text-align: center;
-  }
+.firstBlockFeature svg {
+  float: right;
+  padding: 0;
+}
 
-  .featureWrapper p {
-    margin: 0 auto;
-    padding: 34px 0 34px;
-    display: inline-block;
-  }
+.firstBlockFeature::after {
+  clear: both;
+  content: '';
+  display: block;
+}
 
-  .svgWrapperFirstColor svg {
-    margin: 0 auto;
-    padding: 34px 0 34px;
-    display: inline-block;
-  }
+.lightBlueWrapper p {
+  margin: 0;
+  display: inline-block;
+}
 
-  .svgWrapperFirstColor {
-    text-align: center;
-    background-color: #bc3183;
-    width: 19%;
-    display: inline-block;
-  }
+// Feature Block.
+/////////////////
+.middleWrapper {
+  width: 100%;
+}
 
-  .svgWrapperSecondColor {
-    background-color:  #5b0fa1;
-  }
+.middleWrapper::after {
+  clear: both;
+  content: '';
+}
 
-  .contentWrapper {
-    background-color: #ebebeb;
-  }
 
-  .contentTitle {
-    color:#088ca5;
-  }
+.featureWrapper {
+  background-color: #27212c;
+  width: 80%;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+}
 
-  .contentBlock {
-    color: black;
+.featureWrapper p {
+  margin: 0 auto;
+  padding: 34px 0 34px;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
   }
+}
 
+.svgWrapperFirstColor svg {
+  margin: 0 auto;
+  padding: 29px 0 28px;
+  display: inline-block;
+}
+
+.svgWrapperFirstColor {
+  text-align: center;
+  background-color: #bc3183;
+  width: 20%;
+  float: right;
+  border-top: 2px solid #f060e4;
+}
+
+.svgWrapperSecondColor {
+  background-color:  #5b0fa1;
+  border-top: 2px solid #9a1ade;
+  border-bottom: 2px solid #9a1ade;
+  text-align: center;
+  padding: 30%;
+}
+
+.imgWrapper::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.imgAssetContent {
+  width: 100%;
+  border-bottom: 2px solid #f060e4;
+  float: left;
+}
+
+// Content block.
+/////////////////
+.secondBlock {
+  display: none;
+}
+
+.firstBlock {
+  padding: 45px;
+}
+
+.contentWrapper {
+  background-color: #ebebeb;
+}
+
+.contentTitle {
+  color:#088ca5;
+  cursor: pointer;
+  &:hover {
+    color: #40abbf;
+  }
+}
+
+.contentBlock {
+  color: black;
+  opacity: 0.8;
 }
