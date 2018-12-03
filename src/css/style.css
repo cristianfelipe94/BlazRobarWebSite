@@ -160,4 +160,192 @@ body {
   color: black;
   opacity: 0.8; }
 
+@media only screen and (min-width: 640px) {
+  .navTitle p {
+    padding: 5%;
+    font-size: 1.5rem; }
+
+  .lightBlueWrapper {
+    height: 350px; }
+
+  .firstBlockTitle {
+    font-size: 2rem; }
+
+  .lightBlueAlign {
+    padding: 100px 0 0; }
+
+  .middleWrapper, .featureWrapper, .svgWrapperFirstColor {
+    height: 100px; }
+
+  .cls-1, .cls-2 {
+    stroke-width: 4px; }
+
+  .icons {
+    width: 34px; }
+
+  .featureWrapper p {
+    padding: 5.5% 0;
+    font-size: 1.2rem; }
+
+  .svgWrapperFirstColor svg {
+    padding: 24.5% 0; }
+
+  .firstBlock {
+    padding: 75px;
+    line-height: 40px; } }
+@media only screen and (min-width: 980px) {
+  .navTitle {
+    display: none; }
+
+  .burgerBtn {
+    display: none; }
+
+  .burgerWrapper {
+    float: left; }
+
+  .navMenu a {
+    float: left;
+    display: unset; }
+
+  .navMenu a {
+    margin-right: 28px; }
+
+  .navMenu {
+    width: 100vw; }
+
+  .navMenuWrapper {
+    padding: 35px 0; }
+
+  .lightBlueWrapper {
+    height: 350px; }
+
+  .firstBlockTitle {
+    font-size: 2rem; }
+
+  .lightBlueAlign {
+    max-width: 458px;
+    margin-left: 5%; }
+
+  .middleWrapper, .featureWrapper, .svgWrapperFirstColor {
+    height: 120px; }
+
+  .svgWrapper, .imgAssetContent {
+    display: inline-block; }
+
+  .svgWrapperFirstColor {
+    border: unset; }
+
+  .svgWrapperSecondColor {
+    padding: 0%;
+    width: 33%;
+    float: left; }
+
+  .svgWrapperSecondColor svg {
+    padding: 38%; }
+
+  .imgAssetContent {
+    width: 33.4%; }
+
+  .imgWrapper {
+    width: 100vw; }
+
+  .firstBlock {
+    display: inline-block;
+    width: 45%;
+    padding: 2% 2% 10% 2%; }
+
+  .secondBlock {
+    display: inline-block;
+    width: 45%;
+    line-height: 40px;
+    padding: 2% 2% 10% 2%; } }
+@media only screen and (min-width: 1024px) {
+  .navTitle {
+    display: none; }
+
+  .burgerBtn {
+    display: none; }
+
+  .burgerWrapper {
+    float: left; }
+
+  .navMenu a {
+    float: left;
+    display: unset; }
+    .navMenu a:hover {
+      opacity: 0.5; }
+
+  .navMenu a {
+    margin-right: 28px; }
+
+  .navMenu {
+    width: 100vw; }
+
+  .navMenuWrapper {
+    padding: 35px 0; }
+
+  .lightBlueWrapper {
+    height: 350px; }
+
+  .firstBlockTitle {
+    font-size: 2rem; }
+
+  .lightBlueAlign {
+    max-width: 458px;
+    margin-left: 5%; }
+
+  .middleWrapper, .featureWrapper, .svgWrapperFirstColor {
+    height: 120px; }
+
+  .featureWrapper p {
+    padding: 3.5% 0; }
+
+  .svgWrapper, .imgAssetContent {
+    display: inline-block; }
+
+  .svgWrapperFirstColor svg {
+    padding: 13.5% 0; }
+
+  .svgWrapperSecondColor {
+    padding: 0%;
+    width: 33%;
+    float: left; }
+
+  .svgWrapperSecondColor svg {
+    padding: 38.99%; }
+
+  .icons {
+    width: 8%; }
+
+  .imgAssetContent {
+    width: 33.4%; }
+
+  .imgWrapper {
+    width: 100vw; }
+
+  .firstBlock {
+    width: 25%;
+    text-align: left;
+    padding: 2% 2% 6%; }
+
+  .secondBlock {
+    width: 25%;
+    text-align: left;
+    padding: 2% 2% 6%; }
+
+  .wrapperBox {
+    width: 100vw; }
+
+  .imgsWrapper:hover {
+    clear: both;
+    content: "";
+    display: block; }
+
+  .contentWrapper {
+    margin: 0 auto;
+    text-align: center; }
+
+  .imgsWrapper {
+    float: left; } }
+
 /*# sourceMappingURL=style.css.map */

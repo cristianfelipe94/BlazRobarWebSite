@@ -1,0 +1,90 @@
+@media only screen and (min-width: 1024px) {
+  .navTitle {
+    display: none; }
+
+  .burgerBtn {
+    display: none; }
+
+  .burgerWrapper {
+    float: left; }
+
+  .navMenu a {
+    float: left;
+    display: unset; }
+    .navMenu a:hover {
+      opacity: 0.5; }
+
+  .navMenu a {
+    margin-right: 28px; }
+
+  .navMenu {
+    width: 100vw; }
+
+  .navMenuWrapper {
+    padding: 35px 0; }
+
+  .lightBlueWrapper {
+    height: 350px; }
+
+  .firstBlockTitle {
+    font-size: 2rem; }
+
+  .lightBlueAlign {
+    max-width: 458px;
+    margin-left: 5%; }
+
+  .middleWrapper, .featureWrapper, .svgWrapperFirstColor {
+    height: 120px; }
+
+  .featureWrapper p {
+    padding: 3.5% 0; }
+
+  .svgWrapper, .imgAssetContent {
+    display: inline-block; }
+
+  .svgWrapperFirstColor svg {
+    padding: 13.5% 0; }
+
+  .svgWrapperSecondColor {
+    padding: 0%;
+    width: 33%;
+    float: left; }
+
+  .svgWrapperSecondColor svg {
+    padding: 38.99%; }
+
+  .icons {
+    width: 8%; }
+
+  .imgAssetContent {
+    width: 33.4%; }
+
+  .imgWrapper {
+    width: 100vw; }
+
+  .firstBlock {
+    width: 25%;
+    text-align: left;
+    padding: 2% 2% 6%; }
+
+  .secondBlock {
+    width: 25%;
+    text-align: left;
+    padding: 2% 2% 6%; }
+
+  .wrapperBox {
+    width: 100vw; }
+
+  .imgsWrapper:hover {
+    clear: both;
+    content: "";
+    display: block; }
+
+  .contentWrapper {
+    margin: 0 auto;
+    text-align: center; }
+
+  .imgsWrapper {
+    float: left; } }
+
+/*# sourceMappingURL=desktop.css.map */

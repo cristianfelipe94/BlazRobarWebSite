@@ -1,0 +1,35 @@
+@media only screen and (min-width: 640px) {
+  .navTitle p {
+    padding: 5%;
+    font-size: 1.5rem; }
+
+  .lightBlueWrapper {
+    height: 350px; }
+
+  .firstBlockTitle {
+    font-size: 2rem; }
+
+  .lightBlueAlign {
+    padding: 100px 0 0; }
+
+  .middleWrapper, .featureWrapper, .svgWrapperFirstColor {
+    height: 100px; }
+
+  .cls-1, .cls-2 {
+    stroke-width: 4px; }
+
+  .icons {
+    width: 34px; }
+
+  .featureWrapper p {
+    padding: 5.5% 0;
+    font-size: 1.2rem; }
+
+  .svgWrapperFirstColor svg {
+    padding: 24.5% 0; }
+
+  .firstBlock {
+    padding: 75px;
+    line-height: 40px; } }
+
+/*# sourceMappingURL=mobileMaxSize.css.map */

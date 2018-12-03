@@ -1,0 +1,89 @@
+@media only screen and (min-width: 980px) {
+
+    .navTitle {
+      display: none;
+    }
+
+    .burgerBtn {
+      display: none;
+    }
+
+    .burgerWrapper {
+      float: left;
+    }
+
+    .navMenu a {
+      float: left;
+      display: unset;
+    }
+
+    .navMenu a{
+      margin-right: 28px;
+    }
+
+    .navMenu {
+      width: 100vw;
+    }
+
+    .navMenuWrapper {
+      padding: 35px 0;
+    }
+
+    .lightBlueWrapper {
+      height: 350px;
+    }
+
+    .firstBlockTitle {
+      font-size: 2rem;
+    }
+
+    .lightBlueAlign {
+      max-width: 458px;
+      margin-left: 5%;
+    }
+
+    .middleWrapper, .featureWrapper, .svgWrapperFirstColor {
+      height: 120px;
+    }
+
+    .svgWrapper, .imgAssetContent {
+      display: inline-block;
+    }
+
+    .svgWrapperFirstColor {
+      border: unset;
+    }
+
+    .svgWrapperSecondColor {
+      padding: 0%;
+      width: 33%;
+      float: left;
+    }
+
+    .svgWrapperSecondColor svg {
+      padding: 38%;
+    }
+
+    .imgAssetContent {
+      width: 33.4%;
+
+    }
+
+    .imgWrapper {
+      width: 100vw;
+    }
+
+    .firstBlock {
+      display: inline-block;
+      width: 45%;
+      padding : 2% 2% 10% 2%;
+    }
+
+    .secondBlock {
+      display: inline-block;
+      width: 45%;
+      line-height: 40px;
+      padding : 2% 2% 10% 2%;
+    }
+
+  }
